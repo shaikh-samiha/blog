@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Input and Textarea */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fefefe;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Post Content */
+.post-content {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+/* List of posts */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+/* Button Group */
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.9rem;
+  }
+
+  input[type="text"], textarea {
+    font-size: 1rem;
+  }
+}
