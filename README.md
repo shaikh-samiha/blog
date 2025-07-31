@@ -32,7 +32,7 @@
   <img src="https://i.gifer.com/7efs.gif" width="70%" alt="Blog Preview"/>
 </p>
 
-> 📝 *Tip: You can replace this GIF with your own app's screenshot or demo GIF.*
+> 📝 *: knowledgw is power that allows you to think beyond the limits .*
 
 ---
 
